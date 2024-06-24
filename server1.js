@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/server1', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Hello from server 1');
 });
 
